@@ -253,6 +253,10 @@ footer > hr {
   width: 100%;
 }
 
+.copyright {
+  font-size: 0.8rem;
+}
+
 /* MediaQuery */
 @media screen and (max-width: 576px) {
   .navigation {
@@ -267,6 +271,7 @@ footer > hr {
   .hydelbugr {
     display: block;
     margin-right: 20px;
+    font-size: 1.8rem;
   }
 
   .banner {
