@@ -220,6 +220,39 @@ body {
   margin-bottom: 65px;
 }
 
+footer {
+  margin: 10px 15px;
+}
+footer ul {
+  padding: 0;
+}
+
+.footer-one {
+  padding-right: 50px;
+}
+
+.footer-one > h2 {
+  color: orangered;
+  font-size: 2.1rem;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.footer-list > li {
+  list-style: none;
+  margin-left: 0;
+  color: rgb(91, 91, 91);
+  margin-bottom: 10px;
+}
+
+footer > hr {
+  width: 100%;
+}
+
 /* MediaQuery */
 @media screen and (max-width: 576px) {
   .navigation {
@@ -267,6 +300,11 @@ body {
 
   .meet-cart {
     margin: 20px 15px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr;
