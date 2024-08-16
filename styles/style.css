@@ -201,6 +201,44 @@ body {
   justify-content: center;
 }
 
+.bim-calc {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px;
+  background-color: rgb(34, 34, 34);
+}
+
+.bim-calc > div {
+  padding-left: 5px;
+}
+
+.bim-form {
+  margin-top: 20px;
+}
+
+.table {
+  border-collapse: collapse;
+}
+.table td,
+th {
+  border: 1px solid black;
+  padding: 10px 20px;
+  width: 11rem;
+}
+
+/* .bim-calc > div {
+  background-color: rgb(15, 13, 17);
+} */
+
+.bim-form input {
+  width: 250px;
+  margin: 5px 2px;
+  background-color: rgb(44, 44, 44);
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
 .meet-cart-text {
   margin-top: -130px;
   margin-left: 36px;
@@ -319,12 +357,33 @@ footer > hr {
   }
   .flex-reverse {
     flex-direction: column;
+    /* flex-direction: row-reverse; */
     background-color: rgb(31, 39, 40);
     border-radius: 15px;
   }
 
   #achievement-img {
     margin: 20px 0px 15px -10px;
+  }
+
+  .bim-calc {
+    flex-direction: column;
+  }
+
+  .table td,
+  th {
+    border: 1px solid black;
+    padding: 10px 20px;
+    width: 12rem;
+  }
+
+  .bim-form input {
+    width: 180px;
+    margin: 5px 2px;
+    background-color: rgb(44, 44, 44);
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
   }
 
   .footer-grid {
