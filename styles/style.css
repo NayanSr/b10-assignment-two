@@ -193,6 +193,14 @@ body {
   border-radius: 10px;
 }
 
+.flex-reverse {
+  flex-direction: row-reverse;
+  background-color: rgb(31, 39, 40);
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
 .meet-cart-text {
   margin-top: -130px;
   margin-left: 36px;
@@ -259,9 +267,9 @@ footer > hr {
 
 /* MediaQuery */
 @media screen and (max-width: 576px) {
-  .navigation {
-    /* flex-direction: column; */
-  }
+  /* .navigation { */
+  /* flex-direction: column; */
+  /* }  */
 
   .nav-items {
     /* flex-direction: column; */
@@ -309,6 +317,16 @@ footer > hr {
     gap: 20px;
     grid-template-columns: 1fr;
   }
+  .flex-reverse {
+    flex-direction: column;
+    background-color: rgb(31, 39, 40);
+    border-radius: 15px;
+  }
+
+  #achievement-img {
+    margin: 20px 0px 15px -10px;
+  }
+
   .footer-grid {
     display: grid;
     gap: 20px;
